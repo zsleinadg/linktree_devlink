@@ -2,5 +2,19 @@
 
 body{
     min-height: 100vh;
-    background: linear-gradient(#232630, #050507)
+    /* background: linear-gradient(#232630, #050507) */
+    /* background-image: url("/src/assets/20car1cqtas71.webp"); */
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.6)
+    ),url("/src//assets/20car1cqtas71.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (width <= 1220px){
+    body{
+        background-position:87% center;
+    }
 }

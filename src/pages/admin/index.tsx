@@ -136,7 +136,7 @@ export default function Admin(){
                     </div>
                 )}
 
-                <button type="submit" className="mb-7 bg-blue-600 h-9 rounded-md text-white font-medium gap-4 flex justify-center items-center">
+                <button type="submit" className="mb-7 bg-blue-600 h-9 rounded-md text-white font-medium gap-4 flex justify-center items-center cursor-pointer hover:scale-104 transition-all">
                     Cadastrar
                 </button>
 
